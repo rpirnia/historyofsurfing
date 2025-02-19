@@ -1,0 +1,58 @@
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Spicy Rice', sans-serif;  /* Apply Montserrat to h1, h2 */
+    font-size: 2.0em;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+body {
+    background-image: url(surfing.png);
+    background-color: teal;
+    background-size: cover;  /* Ensures the image covers the whole background */
+    background-position: center top;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    color: yellow;
+    font-family: 'Poppins', sans-serif;  /* Apply Roboto to the body */
+}
+
+img {
+    width: 200px; /* Set the width */
+    height: 300px; /* Set the height */
+    object-fit: cover; /* Ensures images maintain aspect ratio and fill the container */
+    display: block;
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    font-weight: 50;
+}
+
+.surfer {
+    font-family: 'Spicy Rice', sans-serif;  /* Apply Roboto to the body */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the text */
+    color: yellow;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;  /* Centers the items horizontally */
+    align-items: center;  /* Centers the items vertically */
+    flex-wrap: wrap;  /* Allows the items to wrap if necessary */
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
